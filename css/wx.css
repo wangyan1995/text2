@@ -1,0 +1,663 @@
+.wrap{
+	width: 6.4rem;
+	height: 10.08rem;
+	background: url(../images/bg01.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+.wtop{
+	width: 6.4rem;
+	height: 2.71rem;
+	background: url(../images/bg02.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+	position:absolute;
+	top: 0;
+	left: 0;
+}
+.wfoot{	
+	width: 6.4rem;
+	height: 7.37rem;
+	font-size: 0.23rem;
+	text-align: center;
+	float: left;
+	position: absolute;
+	top: 2.71rem;
+	left: 0;
+}
+.wfoot img{
+	width: 5.09rem;
+	height: 1.98rem;
+	text-align: center;
+}
+.wfoot .wfp1{
+	width: 4.33rem;
+	height: 0.97rem;
+	font-size: 0.4rem;
+	color: #FCFAF8;
+	background: #01379B;
+	text-align: center;
+	line-height: 0.97rem;
+	border-radius: 17px;
+	float: left;
+	margin: 0.51rem  0 0 1rem;
+	cursor: pointer;
+	border-bottom: 4px solid #616161;
+}
+.wfoot .wfp2{
+	width: 4.33rem;
+	height: 0.97rem;
+	font-size: 0.4rem;
+	color: #FCFAF8;
+	background: #01379B;
+	text-align: center;
+	line-height: 0.97rem;
+	border-radius: 17px;
+	float: left;
+	cursor: pointer;
+	margin: 0.15rem  0 0 1rem;
+	border-bottom: 4px solid #616161;
+}
+.wfoot .wfp3{
+	float: left;
+	margin: 0.32rem 0 0 2.27rem;
+	font-size: 0.4rem;
+	text-decoration: underline;
+	cursor: pointer;
+	color: #002e87;
+}
+
+
+/* ========================yesno=========================== */
+.yewrap{
+	width: 6.4rem;
+	height: 10.08rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.ye{
+	width: 6.4rem;
+	height: 10.08rem;
+	background: #000;
+	opacity: 0.4;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.yewrap .yeqr{
+	position: absolute;
+	top: 1.31rem;
+	left: 0.21rem;
+	background: #fff;
+	width: 5.82rem;
+	height: 4.73rem;
+	border: 8px solid #00286e;
+	border-radius: 0.3rem;
+	color: #021f6f;
+	font-size: 0.36rem;
+	float:left;
+	text-align: center;
+	padding-top: 0.5rem;
+}
+.yewrap .yeqr .yep4{
+	margin: 0.21rem 0 0 0.72rem;
+	width: 4.33rem;
+	height: 0.97rem;
+	font-size: 0.4rem;
+	color: #FCFAF8;
+	background: #01379B;
+	text-align: center;
+	line-height: 0.97rem;
+	border-radius: 17px;
+	float: left;
+	cursor: pointer;
+	border-bottom: 4px solid #616161;
+}
+.yewrap .yeqr .yep5{
+	margin: 0.19rem 0 0 0.72rem;
+	width: 4.33rem;
+	height: 0.97rem;
+	font-size: 0.4rem;
+	color: #FCFAF8;
+	background: #01379B;
+	text-align: center;
+	line-height: 0.97rem;
+	border-radius: 17px;
+	float: left;
+	cursor: pointer;
+	border-bottom: 4px solid #616161;
+}
+.hdsm{
+	width: 6.4rem;
+	height: 10.08rem;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.hdsm .smbg{
+	width: 6.4rem;
+	height: 10.08rem;
+	background: #000;
+	opacity: 0.4;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+.hdsm .smz{
+	background: #fff;
+	width: 5.82rem;
+	border: 8px solid #01296f;
+	border-radius: 0.3rem;
+	position: absolute;
+	top: 1.31rem;
+	left: 0.21rem;
+	font-size: 0.25rem;
+	z-index: 20;
+}
+.hdsm .smz .smp1{
+	color: #0b2b66;
+	font-weight: bold;
+	font-size: 0.28rem;
+	margin-top: 0.46rem;
+	margin-left: 0.35rem;
+}
+.hdsm .smz .smp2 , .hdsm .smz .smp3 , .hdsm .smz .smp4 , .hdsm .smz .smp5{
+	color: #646464;
+	/* margin-top: 0.46rem; */
+	margin-left: 0.35rem;
+	margin-right: 0.35rem;
+	margin-top: 0.12rem;
+}
+.hdsm .smz .smp6{
+	margin: 0.19rem 0 0.37rem 0.72rem;
+	width: 4.33rem;
+	height: 0.97rem;
+	font-size: 0.47rem;
+	color: #FCFAF8;
+	background: #01379B;
+	text-align: center;
+	line-height: 0.97rem;
+	border-radius: 17px;
+	float: left;
+	cursor: pointer;
+	border-bottom: 4px solid #616161;
+
+}
+/* ======================抽奖=========================== */
+.cjfz{
+	float: left;
+	width: 6.4rem;
+	text-align: center;
+	margin-top: 0.35rem;
+}
+.cjfz .cjfp1{
+	font-size: 0.51rem;
+	color: #002065;
+	font-weight: bolder;
+}
+.cjfz .cjfp2{
+	font-size: 0.29rem;
+	color: #666664;
+	margin-bottom: 0.26rem;
+}
+.wfoot .cjfimg{
+	margin: 0 0 0 0.18rem;
+	
+}
+.wfoot .cjfi1{
+	margin: 0;
+	float: left;
+	width: 1.99rem;
+	height: 2.77rem;
+}
+/* ====================场内抽奖===================== */
+.neijiang{
+	width: 6.4rem;
+	height: 10.08rem;
+	overflow: hidden;
+	background: url(../images/bg01.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+
+}
+.njp1{
+	font-size: 0.4rem;
+	color:#00236e;
+	text-align: center;
+	margin-top: 0.34rem;
+}
+.njd1{
+	font-size: 0.26rem;
+	background: #fff;
+	width: 5.96rem;
+	margin: 0 auto;
+	margin-top: 20px;
+	overflow: hidden;
+}
+.njd1 .ngdp1{
+	font-size: 0.26rem;
+	padding-top: 18px;
+	text-align: center;
+}
+.njd1 ul{
+	background: url(../images/bg03.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+	width: 4.18rem;
+	height: 0.75rem;
+	margin: 0 auto;
+}
+.njd1 ul li{
+	width: 0.63rem;
+	height: 0.73rem;
+	float: left;
+	margin-left: 20px;
+	font-size: 0.29rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.73rem;
+}
+.njd1 img{
+	float: left;
+	width: 4.85rem;
+	height: 2.94rem;
+	margin: 45px 55px 0 55px;
+}
+.njp2{
+	font-size: 0.3rem;
+	color: #022978;
+	font-weight: bold;
+	margin-left: 23px;
+	margin-top: 22px;
+}
+.njp3{
+	font-size: 0.24rem;
+	float: left;
+	margin: 0 25px;
+	color: #5f6064;
+}
+.njp4{
+	margin: 0.21rem 1rem 0 1rem;
+	width: 4.33rem;
+	height: 0.97rem;
+	font-size: 0.4rem;
+	color: #FCFAF8;
+	background: #01379B;
+	text-align: center;
+	line-height: 0.97rem;
+	border-radius: 17px;
+	float: left;
+	cursor: pointer;
+	border-bottom: 4px solid #616161;
+}
+.njp5{
+	height: 0.68rem;
+	float: left;
+	margin: 0 52px;
+	line-height: 0.68rem;
+	margin-top: 23px;
+}
+.njp5 span{
+	float: left;
+	font-size: 0.31rem;
+	color: #626665;
+	height: 0.68rem;
+	line-height: 0.68rem;
+}
+.njp5 img{
+	width: 0.68rem;
+	height: 0.68rem;
+	margin-left: 24px;
+}
+/* ==================场外中奖===================== */
+.waijing{
+	width: 5.65rem;
+	height: 9.16rem;
+	overflow: hidden;
+	padding: 0.35rem 0.375rem 0.57rem 0.375rem;
+	background: url(../images/bg01.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+.wjp1{
+	text-align: center;
+	font-size: 0.52rem;
+	color: #c70124;
+	font-weight: bolder;
+}
+.wjp2{
+	font-size: 0.28rem;
+	color: #666;
+}
+.wji1{
+	float: left;
+	width: 5.64rem;
+	height: 3.21rem;
+}
+.wjp3{
+	font-size: 0.3rem;
+	color: #666;
+}
+.wjp4{
+	width: 5.60rem;
+	height: 0.86rem;
+	background: url(../images/shuru2.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+.wjp4 input{
+	width: 4.50rem;
+	height: 0.76rem;
+	border: none;
+	font-size: 0.5rem;
+	padding-left: 5px;
+	position: absolute;
+	top: 0.03rem;
+	left: 0.97rem;
+}
+.wjp5{
+	margin: 0.21rem 0.6rem 0 0.6rem;
+	width: 4.33rem;
+	height: 0.97rem;
+	font-size: 0.4rem;
+	color: #FCFAF8;
+	background: #01379B;
+	text-align: center;
+	line-height: 0.97rem;
+	border-radius: 17px;
+	float: left;
+	cursor: pointer;
+	border-bottom: 4px solid #616161;
+}
+.wjp6{
+	height: 0.68rem;
+	float: left;
+	margin: 0 0.13rem;
+	line-height: 0.68rem;
+	margin-top: 0.23rem;
+}
+.wjp6 span{
+	float: left;
+	font-size: 0.31rem;
+	color: #626665;
+	height: 0.68rem;
+	line-height: 0.68rem;
+}
+.wjp6 img{
+	width: 0.68rem;
+	height: 0.68rem;
+	margin-left: 0.24rem;
+	float: left;
+}
+/* ===============分享================== */
+.fenx{
+	width: 6.4rem;
+	height: 10.08rem;
+	overflow: hidden;
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.fenx .fxp1{
+	width: 6.4rem;
+	height: 10.08rem;
+	background: #000;
+	opacity: 0.4;
+}
+.fenx .fxp2{
+	width: 6.4rem;
+	height: 4.05rem;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: url(../images/share_pop.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+
+.ycj{
+	text-align: left;
+}
+.ycjp1{
+	margin-top: 0.3rem;
+	font-size: 0.67rem;
+	color: #00296a;
+	text-align: center;
+	font-weight: bolder;
+}
+.ycjp2{
+	font-size: 0.3rem;
+	color: #666;
+	float: left;
+	margin: 0.10rem 0.35rem;
+	margin-top: 0.3rem;
+}
+
+
+
+.no{
+	text-align: left;
+}
+.nop1{
+	margin-top: 0.3rem;
+	font-size: 0.67rem;
+	color: #c50918;
+	text-align: center;
+	/* font-weight: bold; */
+}
+.nop2{
+	font-size: 0.36rem;
+	color: #666;
+	float: left;
+	margin: 0.10rem 0.3rem;
+	margin-top: 0.3rem;
+}
+.nop2 span{
+	color: #113776;
+	font-weight: bold;
+}
+
+/* =================现场留资=========================== */
+.xclzp1{
+	width: 3.12rem;
+	height: 0.75rem;
+	margin: 0 auto;
+	margin-top: 0.50rem;
+	text-align: center;
+	background: url(../images/qckhj.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+.xclzp2{
+	font-size: 0.26rem;
+	color: #666;
+	margin: 0.3rem 0.2rem;
+}
+.xclzp3{
+	width: 5.94rem;
+	height: 0.86rem;
+	margin: 0 0.2rem;
+	background: url(../images/shuru1.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+.xclzp3 input{
+	width: 4.84rem;
+	height: 0.76rem;
+	font-size: 0.6rem;
+	border: none;
+	position: absolute;
+	top: 0.03rem;
+	left: 1rem;
+}
+.xclzp4{
+	width: 5.94rem;
+	height: 0.86rem;
+	margin: 0 0.2rem;
+	margin-top: 0.06rem;
+	background: url(../images/shuru2.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+.xclzp4 input{
+	width: 4.84rem;
+	height: 0.76rem;
+	font-size: 0.6rem;
+	border: none;
+	position: absolute;
+	top: 0.03rem;
+	left: 1rem;
+}
+.xclzp5{
+	margin: 0.34rem 1rem 0 1rem;
+	width: 4.33rem;
+	height: 0.97rem;
+	font-size: 0.4rem;
+	color: #FCFAF8;
+	background: #01379B;
+	text-align: center;
+	line-height: 0.97rem;
+	border-radius: 17px;
+	float: left;
+	cursor: pointer;
+	border-bottom: 4px solid #616161;
+}
+.xclzp6{
+	float: left;
+	margin: 0.32rem 0 0 2.27rem;
+	font-size: 0.4rem;
+	text-decoration: underline;
+	cursor: pointer;
+	color: #002e87;
+}
+.xclzp7{
+	margin-left: 0.5rem;
+}
+/* ==================活动规则===================== */
+.hdgz{
+	width: 6.4rem;
+	height: 10.08rem;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+/* .hdsm{
+	width: 6.4rem;
+	height: 10.08rem;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+} */
+.hdgz .hdgzbg{
+	width: 6.4rem;
+	height: 10.08rem;
+	background: #000;
+	opacity: 0.4;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.hdgz .gzz{
+	background: #fff;
+	width: 5.22rem;
+	border: 8px solid #01296f;
+	border-radius: 0.3rem;
+	position: absolute;
+	top: 0.5rem;
+	left: 0.21rem;
+	font-size: 0.25rem;
+	padding: 0.50rem 0.3rem 0.23rem 0.3rem;
+}
+.gzp1{
+	font-size: 0.28rem;
+	color: #002568;
+	font-weight: bold;
+}
+.gzp2{
+	overflow: hidden;
+	font-size: 0.26rem;
+	color: #666;
+	margin: 10px;
+}
+.gzp2 .gzp21{
+	float: left;
+}
+.gzp2 .gzp22{
+	float: right;
+	width: 4.6rem;
+}
+.gzp3{
+	margin: 0.34rem 0.2rem 0 0.2rem;
+	width: 4.33rem;
+	height: 0.97rem;
+	font-size: 0.4rem;
+	color: #FCFAF8;
+	background: #01379B;
+	text-align: center;
+	line-height: 0.97rem;
+	border-radius: 17px;
+	float: left;
+	cursor: pointer;
+	border-bottom: 4px solid #616161;
+}
+/* ================提交成功========================= */
+.tjcg{
+	width: 6.4rem;
+	height: 10.08rem;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.tjcg .tjchbg{
+	width: 6.4rem;
+	height: 10.08rem;
+	background: #000;
+	opacity: 0.4;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.tjcg .tjchz{
+	background: #fff;
+	width: 5.22rem;
+	border: 8px solid #01296f;
+	border-radius: 0.3rem;
+	position: absolute;
+	top: 1.5rem;
+	left: 0.21rem;
+	font-size: 0.25rem;
+	padding: 0.50rem 0.3rem 0.53rem 0.3rem;
+}
+.tjp3{
+	margin: 0.44rem 0.2rem 0 0.2rem;
+	width: 4.33rem;
+	height: 0.97rem;
+	font-size: 0.4rem;
+	color: #FCFAF8;
+	background: #01379B;
+	text-align: center;
+	line-height: 0.97rem;
+	border-radius: 17px;
+	float: left;
+	cursor: pointer;
+	border-bottom: 4px solid #616161;
+}
+.tjp1{
+	font-size: 0.66rem;
+	text-align: center;
+	color: #0a2769;
+	font-weight: bold;
+}
+.tjp2{
+	font-size: 0.38rem;
+	color: #666;
+	margin-top: 0.2rem;
+}
